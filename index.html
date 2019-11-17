@@ -7,9 +7,8 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.2/howler.min.js"></script>
 	<script>
 		var speech = new Howl({
-			src: [".mp3"],
+			src: ["audios/speech.mp3"],
 			// The above audio is taken from https://www.youtube.com/watch?v=kBsUwIfL8kU
-			preload: true,
 			onload: function(){
 				console.log("Speech has loaded");
 			},
@@ -31,9 +30,8 @@
 		});
 
 		var background = new Howl({
-			src: ['.mp3'],
+			src: ["audios/bg.mp3"],
 			// The above audio is taken from https://www.youtube.com/watch?v=I8TyTCZ_5jI
-			preload: true,
 			onload: function(){
 				console.log("Background Music has loaded");
 			},
