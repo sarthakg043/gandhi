@@ -27,108 +27,83 @@ section{
     height: 100%;
 }
 #s1{
-    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("https://i.pinimg.com/564x/45/78/fc/4578fc3e4f72048701b7bd75bfc2042d.jpg") center no-repeat;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("imgs/Gandhi-artistic-landscape.jpg") center no-repeat;
     /* The Above Image is taken from https://i.pinimg.com/564x/45/78/fc/4578fc3e4f72048701b7bd75bfc2042d.jpg */
     background-size: cover;
 }
 #s2{
-    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("https://akm-img-a-in.tosshub.com/indiatoday/images/bodyeditor/201909/Gandhi-Jyotindra-Jain-Oct7-5_1-x675.jpg?nD_L8uY7gaWWoqqF3xPPWOSQ363iH4BH") center no-repeat;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("imgs/Gandhi-river_side-painting.jpg") center no-repeat;
     /* The Above Image is taken from https://akm-img-a-in.tosshub.com/indiatoday/images/bodyeditor/201909/Gandhi-Jyotindra-Jain-Oct7-5_1-x675.jpg?nD_L8uY7gaWWoqqF3xPPWOSQ363iH4BH */
     background-size: cover;
 }
 #s3{
-    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("https://akm-img-a-in.tosshub.com/indiatoday/images/story/201910/gandhi-770x433.jpeg?6vX9r3yRDJyLfMxt6xqU_leK98tByZBZ") center no-repeat;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("imgs/Gandhi-black_white.jpg") center no-repeat;
     /* The Above Image istaken from https://akm-img-a-in.tosshub.com/indiatoday/images/story/201910/gandhi-770x433.jpeg?6vX9r3yRDJyLfMxt6xqU_leK98tByZBZ */
     background-size: cover;
 }
 #s4{
-    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("https://www.youngisthan.in/hindi/wp-content/uploads/2016/01/Mahatma-Gandhi-HD-wallpaper.jpg") center no-repeat;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("imgs/Gandhi-coloured.jpg") center no-repeat;
     /* The Above Image is taken https://www.youngisthan.in/hindi/wp-content/uploads/2016/01/Mahatma-Gandhi-HD-wallpaper.jpg */
     background-size: cover;
 }
 #s5{
-    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("https://avante.biz/wp-content/uploads/Gandhi-JI-wallpapers/Gandhi-JI-wallpapers30.jpg") center no-repeat;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("imgs/Gandhi-wallpaper.jpg") center no-repeat;
     /* The Above Image is taken https://avante.biz/wp-content/uploads/Gandhi-JI-wallpapers/Gandhi-JI-wallpapers30.jpg */
     background-size: cover;
 }
 #s6{
-    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("https://indorehd.com/wp-content/uploads/2019/10/10-Interesting-Facts-About-Mahatma-Gandhi-That-Every-Indian-Must-Know-indore-hd.jpg") center no-repeat;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("imgs/Gandhi-smiling.jpg") center no-repeat;
     /* The Above Image is taken https://indorehd.com/wp-content/uploads/2019/10/10-Interesting-Facts-About-Mahatma-Gandhi-That-Every-Indian-Must-Know-indore-hd.jpg */
     background-size: cover;
 }
 #s7{
-    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("http://celebritiesgallery.in/wp-content/uploads/2016/03/Real-And-Original-Pic-of-Mahatma-Gandhi-Ji-580x435.jpg") center no-repeat;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("imgs/Gandhi-Real.jpg") center no-repeat;
     /* The Above Image is taken http://celebritiesgallery.in/wp-content/uploads/2016/03/Real-And-Original-Pic-of-Mahatma-Gandhi-Ji-580x435.jpg */
     background-size: cover;
 }
 #s8{
-    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("https://avante.biz/wp-content/uploads/Gandhi-JI-wallpapers/Gandhi-JI-wallpapers61.jpg") center no-repeat;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("imgs/Gandhi-sepia.jpg") center no-repeat;
     /* The Above Image is taken https://avante.biz/wp-content/uploads/Gandhi-JI-wallpapers/Gandhi-JI-wallpapers61.jpg */
     background-size: cover;
 }
 #s9{
-    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("https://wallpapercave.com/wp/wp1885563.jpg") center no-repeat;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("imgs/g1.jpg") center no-repeat;
     /* The Above Image is taken https://wallpapercave.com/wp/wp1885563.jpg */
     background-size: cover;
 }
 #s10{
-    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("http://celebritiesgallery.in/wp-content/uploads/2016/03/Original-Picture-of-Mahatma-Gandhi-in-HD.jpg") center no-repeat;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("imgs/g2.jpg") center no-repeat;
     /* The Above Image is taken http://celebritiesgallery.in/wp-content/uploads/2016/03/Original-Picture-of-Mahatma-Gandhi-in-HD.jpg */
     background-size: cover;
 }
 #s11{
-    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("https://images.news18.com/ibnlive/uploads/2018/10/Mahatma-Gandhi-15.jpg") center no-repeat;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("imgs/g3.jpg") center no-repeat;
     /* The Above Image is taken https://images.news18.com/ibnlive/uploads/2018/10/Mahatma-Gandhi-15.jpg */
     background-size: cover;
 }
 #s12{
-    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgnzw8l5QzS-3U8gLIBiak7iewf2I7dgClF7MuyAiVZOQAKvudxw&s") center no-repeat;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("imgs/g4.jpg") center no-repeat;
     /* The Above Image is taken https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgnzw8l5QzS-3U8gLIBiak7iewf2I7dgClF7MuyAiVZOQAKvudxw&s */
     background-size: cover;
 }
 #s13{
-    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4kWHdQ8R1_dgTnq-y9Tw9hY7-0yEXexj5Uha0RjPlW1gcPB8D&s") center no-repeat;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("imgs/g5.jpg") center no-repeat;
     /* The Above Image is taken https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4kWHdQ8R1_dgTnq-y9Tw9hY7-0yEXexj5Uha0RjPlW1gcPB8D&s */
     background-size: cover;
 }
 #s14{
-    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("https://indorehd.com/wp-content/uploads/2019/10/10-Interesting-Facts-About-Mahatma-Gandhi-That-Every-Indian-Must-Know-IndoreHD.jpg") center no-repeat;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("imgs/g6.jpg") center no-repeat;
     /* The Above Image is taken https://indorehd.com/wp-content/uploads/2019/10/10-Interesting-Facts-About-Mahatma-Gandhi-That-Every-Indian-Must-Know-IndoreHD.jpg */
     background-size: cover;
 }
 #s15{
-    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-kBtFqGPq-KKGJAaov9JQBIUEFyL7SLdu29_aQvidTDyXv59Q&s") center no-repeat;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("imgs/g7.jpg") center no-repeat;
     /* The Above Image is taken https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-kBtFqGPq-KKGJAaov9JQBIUEFyL7SLdu29_aQvidTDyXv59Q&s */
     background-size: cover;
 }
 #s16{
-    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgqVIzGTmjh7twAclf7ZWeeseFIhDNF8igLPoxqKhP-u3QSSWY&s") center no-repeat;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("imgs/g8.jpg") center no-repeat;
     /* The Above Image is taken https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgqVIzGTmjh7twAclf7ZWeeseFIhDNF8igLPoxqKhP-u3QSSWY&s */
-    background-size: cover;
-}
-#s17{
-    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("https://k6u8v6y8.stackpathcdn.com/blog/wp-content/uploads/2018/09/Mahatama-Gandhi.jpg") center no-repeat;
-    /* The Above Image is taken https://k6u8v6y8.stackpathcdn.com/blog/wp-content/uploads/2018/09/Mahatama-Gandhi.jpg */
-    background-size: cover;
-}
-#s18{
-    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo149DwKksOi06rmHCOyhhL4DEB0P7PS5NLRECBhcvKo4RbBeawA&s") center no-repeat;
-    /* The Above Image is taken https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo149DwKksOi06rmHCOyhhL4DEB0P7PS5NLRECBhcvKo4RbBeawA&s */
-    background-size: cover;
-}
-#s19{
-    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("http://pngimg.com/uploads/mahatma_gandhi/mahatma_gandhi_PNG24.png") center no-repeat;
-    /* The Above Image is taken http://pngimg.com/uploads/mahatma_gandhi/mahatma_gandhi_PNG24.png */
-    background-size: cover;
-}
-#s20{
-    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("imgs/g12.jpg") center no-repeat;
-    /* The Above Image is taken */
-    background-size: cover;
-}
-#s21{
-    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("imgs/g13.jpg") center no-repeat;
-    /* The Above Image is taken */
     background-size: cover;
 }
 
@@ -264,4 +239,33 @@ a{
     outline: none;
     color : rgba(55,55,55.9);
     text-shadow: none;
+}
+
+#bgMusic, #speech{
+    display: block;
+    margin-top: 30%;
+    width: 50%;
+    max-width: 400px;
+    padding: 10px;
+    background-color:  #708d004d;
+    outline: none;
+    border: 1px solid #e99517;
+    position: fixed;
+    font-size: 1.7em;
+    font-family: "Quicksand", sans-serif;
+    color: #e99517;
+    font-weight: bold;
+    transition: .3s
+}
+#bgMusic:hover, #speech:hover{
+    color: #fffe;
+    text-shadow: 2px 2px 10px #000;
+    border-radius: 5px;
+    border: 5px solid #e99517;
+    background-color: #708d00a9;
+    box-shadow: 20px 10px 30px #000;
+}
+#bgMusic:active, #speech:active{
+    background-color: cyan;
+    border: none;
 }

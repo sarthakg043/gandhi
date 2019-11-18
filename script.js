@@ -1,3 +1,77 @@
+// Howler Js starts here
+var speech = new Howl({
+    src: ["audio/speech.mp3"],
+    // The above audio is taken from https://www.youtube.com/watch?v=kBsUwIfL8kU
+    preload: true,
+    onload: function(){
+        console.log("Speech has loaded");
+    },
+    onloaderror: function(){
+        console.log("Speech can't be loaded");
+    },
+    onplay: function(){
+        console.log("Speech has started");
+    },
+    onplayerror: function(){
+        console.log("Speech can't be played");
+    },
+    autoplay: true,
+    volume: 1,
+    loop: true,
+    onend: function(){
+        console.log("Speech ended");
+    }	
+});
+
+var background = new Howl({
+    src: ['audio/background.mp3'],
+    // The above audio is taken from https://www.youtube.com/watch?v=I8TyTCZ_5jI
+    preload: true,
+    onload: function(){
+        console.log("Background Music has loaded");
+    },
+    onloaderror: function(){
+        console.log("Background Music can't be loaded");
+    },
+    onplay: function(){
+        console.log("Background Music has started");
+    },
+    onplayerror: function(){
+        console.log("Background Music can't be played");
+    },
+    autoplay: true,
+    volume: 0.1,
+    loop: true,
+    onend: function(){
+        console.log("Background Music ended");
+    }	
+});
+
+var music = document.querySelector("#bgMusic");
+var soundSpeech = document.querySelector("#speech");
+music.addEventListener("click", function(){
+    if(music.innerHTML === "Play Background Music"){
+        music.innerHTML = "Pause Background Music";
+        background.play();
+    }
+    else{
+        music.innerHTML = "Play Background Music";
+        background.pause();
+    }
+});
+soundSpeech.addEventListener("click", function(){
+    if(soundSpeech.innerHTML === "Play Gandhi's Speech"){
+        soundSpeech.innerHTML = "Pause Gandhi's Speech";
+        speech.play();
+    }
+    else{
+        soundSpeech.innerHTML = "Play Gandhi's Speech";
+        speech.pause();
+    }
+});
+
+
+// Vanilla JS starts here
 var page = document.querySelectorAll(".details");
 var btn = document.querySelectorAll(".next_page_btn");
 var book = document.querySelector(".card");

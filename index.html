@@ -2,62 +2,18 @@
 <html>
 <head>
 	<title>Gandhian Values</title>
-	<link rel="icon" href="http://celebritiesgallery.in/wp-content/uploads/2016/03/Young-Mahatma-Gandhi-Old-Time-Picture-404x580.jpg">
+	<link rel="icon" href="imgs/MKGandhi-portrait.jpg">
 	<link rel="stylesheet" href="style.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.2/howler.min.js"></script>
-	<script>
-		var speech = new Howl({
-			src: ["audios/speech.mp3"],
-			// The above audio is taken from https://www.youtube.com/watch?v=kBsUwIfL8kU
-			onload: function(){
-				console.log("Speech has loaded");
-			},
-			onloaderror: function(){
-				console.log("Speech can't be loaded");
-			},
-			onplay: function(){
-				console.log("Speech has started");
-			},
-			onplayerror: function(){
-				console.log("Speech can't be played");
-			},
-			autoplay: true,
-			volume: 2,
-			loop: true,
-			onend: function(){
-				console.log("Speech ended");
-			}	
-		});
-
-		var background = new Howl({
-			src: ["audios/bg.mp3"],
-			// The above audio is taken from https://www.youtube.com/watch?v=I8TyTCZ_5jI
-			onload: function(){
-				console.log("Background Music has loaded");
-			},
-			onloaderror: function(){
-				console.log("Background Music can't be loaded");
-			},
-			onplay: function(){
-				console.log("Background Music has started");
-			},
-			onplayerror: function(){
-				console.log("Background Music can't be played");
-			},
-			autoplay: true,
-			volume: 0.01,
-			loop: true,
-			onend: function(){
-				console.log("Background Music ended");
-			}	
-		});
-
-		background.play();
-		speech.play();
-	</script>
 </head>
 <body>
-	<section id="s1"></section>
+	<section id="s1">
+		<button id="bgMusic">Play Background Music</button>
+		<br>
+		<br>
+		<br>
+		<button id="speech">Play Gandhi's Speech</button>
+	</section>
 	<section id="s2"></section>
 	<section id="s3"></section>
 	<section id="s4"></section>
@@ -73,14 +29,9 @@
 	<section id="s14"></section>
 	<section id="s15"></section>
 	<section id="s16"></section>
-	<section id="s17"></section>
-	<section id="s18"></section>
-	<section id="s19"></section>
-	<section id="s20"></section>
-	<section id="s21"></section>
 		<div class="card">
 			<div class="img-box">
-				<img src="http://celebritiesgallery.in/wp-content/uploads/2016/03/Young-Mahatma-Gandhi-Old-Time-Picture-404x580.jpg" alt="Preview not Available">
+				<img src="imgs/MKGandhi-portrait.jpg" alt="Preview not Available">
 				<!-- Above image is taken from http://celebritiesgallery.in/wp-content/uploads/2016/03/Young-Mahatma-Gandhi-Old-Time-Picture-404x580.jpg -->
 			</div>
 			<div class="close">
@@ -90,133 +41,126 @@
 			</div>
 			<div class="details">
 				<h2>Bibliography</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nesciunt, veritatis optio consequuntur autem voluptatem temporibus nihil velit soluta suscipit earum aperiam reiciendis dolores repellat fuga porro saepe minima sit!</p>
-				<button class="next_page_btn">
-					<a href="#s21">Next</a>
-				</button>
-			</div>
-			<div class="details">
-				<h2>Conclusion</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nesciunt, veritatis optio consequuntur autem voluptatem temporibus nihil velit soluta suscipit earum aperiam reiciendis dolores repellat fuga porro saepe minima sit!</p>
-				<button class="next_page_btn">
-					<a href="#s20">Next</a>
-				</button>
-			</div>
-			<div class="details">
-				<h2>Partnerships for the Goals</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nesciunt, veritatis optio consequuntur autem voluptatem temporibus nihil velit soluta suscipit earum aperiam reiciendis dolores repellat fuga porro saepe minima sit!</p>
-				<button class="next_page_btn">
-					<a href="#s19">Next</a>
-				</button>
-			</div>
-			<div class="details">
-				<h2>Peace, Justice and strong Institutions</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nesciunt, veritatis optio consequuntur autem voluptatem temporibus nihil velit soluta suscipit earum aperiam reiciendis dolores repellat fuga porro saepe minima sit!</p>
-				<button class="next_page_btn">
-					<a href="#s18">Next</a>
-				</button>
-			</div>
-			<div class="details">
-				<h2>Life on Land</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nesciunt, veritatis optio consequuntur autem voluptatem temporibus nihil velit soluta suscipit earum aperiam reiciendis dolores repellat fuga porro saepe minima sit!</p>
-				<button class="next_page_btn">
-					<a href="#s17">Next</a>
-				</button>
-			</div>
-			<div class="details">
-				<h2>Life below Water</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nesciunt, veritatis optio consequuntur autem voluptatem temporibus nihil velit soluta suscipit earum aperiam reiciendis dolores repellat fuga porro saepe minima sit!</p>
+				<p>For all the audio and picture sources, kindly refer the source code.</p>
+				<p>There I had put every link as a comment after using it.</p>
+				<h2>Thank You</h2>
 				<button class="next_page_btn">
 					<a href="#s16">Next</a>
 				</button>
 			</div>
 			<div class="details">
-				<h2>Climate Action</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nesciunt, veritatis optio consequuntur autem voluptatem temporibus nihil velit soluta suscipit earum aperiam reiciendis dolores repellat fuga porro saepe minima sit!</p>
+				<h2>Conclusion</h2>
+				<p>Gandhiji was a simple person who used to mix ideals in his personality.</p>
+				<p>He wanted to see India a decveloped country, free from malpractices, diseases, poverty, discrimination and hunger.</p>
+				<p>For his dream to come true we have to leave our greed and continue to work for our country taking it as a duty of a ciizen and a return to our motherland.</p>
 				<button class="next_page_btn">
 					<a href="#s15">Next</a>
 				</button>
 			</div>
 			<div class="details">
-				<h2>Responsible Consumption and Production</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nesciunt, veritatis optio consequuntur autem voluptatem temporibus nihil velit soluta suscipit earum aperiam reiciendis dolores repellat fuga porro saepe minima sit!</p>
+				<h2>12. Partnerships for the Goals</h2>
+				<p>No movement in India gained succes without participation for the people. Similarly participation of the citizens of the country is necessary for these Sustainable Development Goals to be achived by India.</p>
+				<p>One should not think that he had bought the government giving his vote.</p>
+				<p>No one should hesitate in cleaning the country or thinking for the welfare of the country.</p>
 				<button class="next_page_btn">
 					<a href="#s14">Next</a>
 				</button>
 			</div>
 			<div class="details">
-				<h2>Sustainable Cities and Communities</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nesciunt, veritatis optio consequuntur autem voluptatem temporibus nihil velit soluta suscipit earum aperiam reiciendis dolores repellat fuga porro saepe minima sit!</p>
+				<h2>11. Peace, Justice and strong Institutions</h2>
+				<p>Gandhiji was a firm believer of non-violence and wanted to have its followers keep faith in peace and Truth</p>
+				<p>On this principle of Ghandhiji, India installed a democratic setup where peace shall be maintained by the authorities and Justice provided ro the innoscent and victim.</p>
+				<p>Still there is a need to make them more powerful to implement their procedures more efficiently.</p>
 				<button class="next_page_btn">
 					<a href="#s13">Next</a>
 				</button>
 			</div>
 			<div class="details">
-				<h2>Reduced Inequalities</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nesciunt, veritatis optio consequuntur autem voluptatem temporibus nihil velit soluta suscipit earum aperiam reiciendis dolores repellat fuga porro saepe minima sit!</p>
+				<h2>10. Responsible Consumption and Production</h2>
+				<p>During the first World War crops failed in many parts of India, many farmers committed sucide and a major part from what was left in crops was used to feed the army.</p>
+				<p>Gandhiji wanted the people of the country to produce for their need and not consume in greed.</p>
+				<p>Now-a-days this need to be executed to control the greed of rich industrialists.</p>
 				<button class="next_page_btn">
 					<a href="#s12">Next</a>
 				</button>
 			</div>
 			<div class="details">
-				<h2>Industry, Innovation and Infrastructure</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nesciunt, veritatis optio consequuntur autem voluptatem temporibus nihil velit soluta suscipit earum aperiam reiciendis dolores repellat fuga porro saepe minima sit!</p>
+				<h2>9. Sustainable Cities and Communities</h2>
+				<p>The era of late colonial period saw Industrial Revolution. Machines used to do mass production, workers lose their jobs</p>
+				<p>Gandhiji was in favour of production by masses. He wanted the people to make and wear Swadeshi</p>
+				<p><b>'Swadeshi'</b> led to the strengthening of Indian Industries which now contribute to India's economy.</p>
 				<button class="next_page_btn">
 					<a href="#s11">Next</a>
 				</button>
 			</div>
 			<div class="details">
-				<h2>Decent Work and Economic Growth</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nesciunt, veritatis optio consequuntur autem voluptatem temporibus nihil velit soluta suscipit earum aperiam reiciendis dolores repellat fuga porro saepe minima sit!</p>
+				<h2>8. Reduced Inequalities</h2>
+				<p>The time before colonial period and during colonial period saw a massive discrimination on the basis of caste.</p>
+				<p>Gandhiji was against this discrimination and never called dalits, instead gave them the title <b>'Harijan'</b>.</p>
+				<p>In the present time discrimination on the basis of caste, religion, gender or race is strictly prohibited by the constitution of India and is a punishable offence.</p>
 				<button class="next_page_btn">
 					<a href="#s10">Next</a>
 				</button>
 			</div>
 			<div class="details">
-				<h2>Affordable and Clean Energy</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nesciunt, veritatis optio consequuntur autem voluptatem temporibus nihil velit soluta suscipit earum aperiam reiciendis dolores repellat fuga porro saepe minima sit!</p>
+				<h2>7. Affordable and Clean Energy</h2>
+				<p>The people in those dayus uses to cook food by burning firewood.</p>
+				<p>To make India a developed country Gandhiji wanted the people of India to aquire modern methods which were much cleaner and easy to use than the old ones which pollute the environment.</p>
+				<p>Today a scheme called <b>'Ujjwala Yojana'</b> has replaced several firewood with CNG gas cylinders contributing to environmental safety.</p>
 				<button class="next_page_btn">
 					<a href="#s9">Next</a>
 				</button>
 			</div>
 			<div class="details">
-				<h2>Clean Water and Sanitation</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nesciunt, veritatis optio consequuntur autem voluptatem temporibus nihil velit soluta suscipit earum aperiam reiciendis dolores repellat fuga porro saepe minima sit!</p>
+				<h2>6. Clean Water and Sanitation</h2>
+				<p>The Indian people during colonial period were not well-educated, they even used to go in open areas for excretion</p>
+				<p>Gandhiji always emphasized on <b>'Swachch  Bharat'</b> and himself cleaned the toilet to glorify the work of sweeper.</p>
+				<p>Now-a-days government is trying to provide good sanitation facilities to each section of society in every area of the country.</p>
 				<button class="next_page_btn">
 					<a href="#s8">Next</a>
 				</button>
 			</div>
 			<div class="details">
-				<h2>Gender Equality</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nesciunt, veritatis optio consequuntur autem voluptatem temporibus nihil velit soluta suscipit earum aperiam reiciendis dolores repellat fuga porro saepe minima sit!</p>
+				<h2>5. Gender Equality</h2>
+				<p>Indian culture didn't give much freedom and power to women. The society was reluctant to let women work outside the house</p>
+				<p>Gandhiji encouraged women to take part in mass struggles and contribute to India's freedom struggle</p>
+				<p>Women came out of their houses participated in struggles and even went to prisons. Now-a-days men and women are equally valued.</p>
 				<button class="next_page_btn">
 					<a href="#s7">Next</a>
 				</button>
 			</div>
 			<div class="details">
-				<h2>Quality Education</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nesciunt, veritatis optio consequuntur autem voluptatem temporibus nihil velit soluta suscipit earum aperiam reiciendis dolores repellat fuga porro saepe minima sit!</p>
+				<h2>4. Quality Education</h2>
+				<p>Education was something not equally given to every section of society in a way it should be given during Colonial period.</p>
+				<p>Gandhiji used to visit many schools and taught the students the meaning of swaraj and encouraged them to work for their country</p>
+				<p>Now education is being given in an open and fair manner, free to children upto age an of 14 years.</p>
 				<button class="next_page_btn">
 					<a href="#s6">Next</a>
 				</button>
 			</div>
 			<div class="details">
-				<h2>Good Health and Well Being</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nesciunt, veritatis optio consequuntur autem voluptatem temporibus nihil velit soluta suscipit earum aperiam reiciendis dolores repellat fuga porro saepe minima sit!</p>
+				<h2>3. Good Health and Well Being</h2>
+				<p>In the days of 1900s diseases like Polio had no treatment and people with this often die.</p>
+				<p>Gandhiji wanted to make India a healthy India where no one will die of not being treated well.</p>
+				<p>In today's world campaigns against Polio, Measels, Rubella, etc. are being conducted to provide free vaccination so that it may not cause an epidemic or plague.</p>
 				<button class="next_page_btn">
 					<a href="#s5">Next</a>
 				</button>
 			</div>
 			<div class="details">
-				<h2>Zero Hunger</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nesciunt, veritatis optio consequuntur autem voluptatem temporibus nihil velit soluta suscipit earum aperiam reiciendis dolores repellat fuga porro saepe minima sit!</p>
+				<h2>2.Zero Hunger</h2>
+				<p>Hunger was something India suffered a lot from due to poverty and discrimination in the days of 1900s, a person who is poor or is of a very low caste suffered from hunger.</p>
+				<p>Gandhiji used to skip his one time meal so that it may be saved for the one who is poor and hungry</p>
+				<p>Now-a-days we see mid-day meals, Bhoj Banks and also government provided subsidy on food grains.</p>
 				<button class="next_page_btn">
 					<a href="#s4">Next</a>
 				</button>
 			</div>
 			<div class="details">
-				<h2>No Poverty</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nesciunt, veritatis optio consequuntur autem voluptatem temporibus nihil velit soluta suscipit earum aperiam reiciendis dolores repellat fuga porro saepe minima sit!</p>
+				<h2>1. No Poverty</h2>
+				<p>Gandhiji wanted to make India free from poverty caused by the centuries of being looted by Britishers.</p>
+				<p>Poverty was one of Gandhiji's main steps to reform society.</p>
+				<p>Still this agenda can be executed in present time. We see facilities provided to BPLs and concessions based on income etc.</p>
 				<button class="next_page_btn">
 					<a href="#s3">Next</a>
 				</button>
