@@ -1,4 +1,4 @@
-# Gandhian Vslues: Sustainable Development goals and application in 21st Century
+# Gandhian Values: Sustainable Development goals and application in 21st Century
 
 <h2>Kindly use a desktop to have a very good experience</h2>
 <p>
